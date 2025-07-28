@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: esrw-signalbot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    plan: free
